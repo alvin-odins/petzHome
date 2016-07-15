@@ -9,7 +9,6 @@ class PetHomeFunctions {
     String newPet[];
     int front = 0, rear = 0, numberOfPets, count = 0;
 	String pets;
-
     
 	
 	public PetHomeFunctions() {
@@ -24,8 +23,11 @@ class PetHomeFunctions {
                 System.out.println("Enter the name and breed of dog (e.g Bruno_Alsatian) :");
                 pets = br.readLine();
                 newPet[rear] = pets;
-                rear++;
+                int petName = rear++;
                 count++;
+                Thread.sleep(2000);
+                System.out.println("Welcome to PetzHome: "+ newPet[petName]);
+                System.out.println();
             } else {
                 System.out.println("We are at full capacity now");
             }

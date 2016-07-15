@@ -17,6 +17,7 @@ class PetMainProc {
         		+ "Adopt a new Pet Today");
         System.out.println("--------------------------\n");
         try {
+        	
             do {
                 System.out.println("1. Add New Pet"
                 		+ "\n2. Pet Adoption"
@@ -25,6 +26,7 @@ class PetMainProc {
                 System.out.println("--------------------------");
                 System.out.println("Selected Option : ");
                 option = Integer.parseInt(br.readLine());
+                
                 switch (option) {
                     case 1:
                         pets.registerNewPet();
