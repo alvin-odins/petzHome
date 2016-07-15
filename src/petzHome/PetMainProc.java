@@ -26,7 +26,7 @@ class PetMainProc {
                 System.out.println("--------------------------");
                 System.out.println("Selected Option : ");
                 option = Integer.parseInt(br.readLine());
-                
+                Thread.sleep(1000);
                 switch (option) {
                     case 1:
                         pets.registerNewPet();
