@@ -17,7 +17,7 @@ class PetMainProc {
         		+ "Adopt a new Pet Today");
         System.out.println("--------------------------\n");
         try {
-        	
+        	Thread.sleep(1000);
             do {
                 System.out.println("1. Add New Pet"
                 		+ "\n2. Pet Adoption"
