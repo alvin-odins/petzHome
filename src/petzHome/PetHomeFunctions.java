@@ -58,7 +58,7 @@ class PetHomeFunctions {
             System.out.println("The Petz Home is empty");
             System.out.println("--------------------------");
         } else {
-        	System.out.println("--------------------------\n");
+        	System.out.print("--------------------------\n");
             for (int i = front; m < count; i++, m++) {
             	//System.out.println("| ");
                 //System.out.println(" " + newPet[i]);
