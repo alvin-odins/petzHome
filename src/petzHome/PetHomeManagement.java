@@ -6,15 +6,15 @@ import java.io.InputStreamReader;
 class PetHomeManagement {
 
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    String newPet[];
+    //String newPet[];
     int front = 0, rear = 0, numberOfPets, count = 0;
-	String pets;
+	//String pets;
     
 	
 	public PetHomeManagement() {
 		int capacity = 20;
 		numberOfPets = capacity;
-		newPet = new String[numberOfPets];
+		//newPet = new String[numberOfPets];
 	}
 
     void registerNewPet() {
