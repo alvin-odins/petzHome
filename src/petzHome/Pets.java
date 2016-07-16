@@ -1,5 +1,5 @@
 package petzHome;
 
-public class Pets {
+public class Pets extends PetHomeManagement{
 
 }
