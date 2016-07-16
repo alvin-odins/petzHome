@@ -3,7 +3,7 @@ package petzHome;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-class PetQueue {
+class PetHomeActions {
 
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     String newPet[];
@@ -11,7 +11,7 @@ class PetQueue {
 	String pets;
     
 	
-	public PetQueue() {
+	public PetHomeActions() {
 		int capacity = 20;
 		numberOfPets = capacity;
 		newPet = new String[numberOfPets];
