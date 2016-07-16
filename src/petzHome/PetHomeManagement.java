@@ -19,20 +19,7 @@ class PetHomeManagement {
 
    
 
-    void remove() {
-        if (count != 0) {
-            System.out.println("Say GoodBye to :" + newPet[front]+" as he goes to a new home");
-            front++;
-            count--;
-        } else {
-        	System.out.println("--------------------------");
-            System.out.println("There are no pets in the home");
-            System.out.println("--------------------------\n");
-        }
-        if (rear == numberOfPets) {
-            rear = 0;
-        }
-    }
+    
 
     void displayAllPets() {
         int m = 0, x = 1;
