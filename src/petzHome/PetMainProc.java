@@ -10,7 +10,7 @@ class PetMainProc {
     	
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
-        PetHomeFunctions pets = new PetHomeFunctions();
+        PetQueue pets = new PetQueue();
         
         System.out.println("--------------------------");
         System.out.println("Welcome to the Petz Home.\n"
